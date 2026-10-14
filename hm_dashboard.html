@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>HM Dashboard - ZPHS Brahmanpally</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-dark bg-primary">
+
+<div class="container-fluid">
+
+<span class="navbar-brand">
+
+🏫 ZPHS Brahmanpally
+
+</span>
+
+<span class="text-white">
+
+Headmaster Dashboard
+
+</span>
+
+</div>
+
+</nav>
+
+<div class="container mt-4">
+
+<div class="row">
+
+<div class="col-md-3">
+
+<div class="card bg-primary text-white">
+
+<div class="card-body">
+
+<h5>Total Admissions</h5>
+
+<h1 id="totalStudents">0</h1>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card bg-warning">
+
+<div class="card-body">
+
+<h5>Pending</h5>
+
+<h1 id="pendingStudents">0</h1>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card bg-success text-white">
+
+<div class="card-body">
+
+<h5>Approved</h5>
+
+<h1 id="approvedStudents">0</h1>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card bg-danger text-white">
+
+<div class="card-body">
+
+<h5>Rejected</h5>
+
+<h1 id="rejectedStudents">0</h1>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="card">
+
+<div class="card-body">
+
+<h3>Student Admissions</h3>
+
+<input
+type="text"
+id="searchBox"
+class="form-control mb-3"
+placeholder="Search Student...">
+
+<div class="table-responsive">
+
+<table class="table table-bordered table-striped">
+
+<thead class="table-primary">
+<tr>
+    <th>Admission ID</th>
+    <th>Name</th>
+    <th>Class</th>
+    <th>Father Name</th>
+    <th>Status</th>
+    <th>Actions</th>
+</tr>
+</thead>
+
+<tbody id="studentTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="hm_dashboard.js"></script>
+
+</body>
+
+</html>

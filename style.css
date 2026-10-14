@@ -1,0 +1,315 @@
+/* ===============================
+   ZPHS BRAHMANPALLY
+   Admission Portal
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
+
+/* NAVBAR */
+
+.navbar{
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    font-size:26px;
+    font-weight:bold;
+}
+
+/* HERO */
+
+.hero{
+
+    height:90vh;
+
+    background:
+    linear-gradient(rgba(0,60,120,.65),
+    rgba(0,60,120,.65)),
+    url("../images/school.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+    font-weight:bold;
+
+}
+
+.hero p{
+
+    font-size:24px;
+
+}
+
+/* BUTTONS */
+
+.btn{
+
+    border-radius:30px;
+    padding:12px 30px;
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* CARDS */
+
+.card{
+
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
+
+.card-header{
+
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+.card-body{
+
+    padding:30px;
+
+}
+
+/* FORM */
+
+form label{
+
+    font-weight:bold;
+    margin-bottom:5px;
+
+}
+
+input,
+select,
+textarea{
+
+    border-radius:10px !important;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color:#0d6efd !important;
+
+    box-shadow:0 0 8px rgba(13,110,253,.3) !important;
+
+}
+
+/* HEADINGS */
+
+h2{
+
+    font-weight:bold;
+
+}
+
+h4{
+
+    margin-top:20px;
+    margin-bottom:15px;
+
+}
+
+/* FOOTER */
+
+footer{
+
+    margin-top:50px;
+
+}
+
+/* TABLE */
+
+table{
+
+    background:white;
+
+}
+
+.table th{
+
+    background:#0d6efd;
+    color:white;
+
+}
+
+/* LOGIN BOX */
+
+.login-box{
+
+    max-width:450px;
+
+    margin:auto;
+
+    margin-top:80px;
+
+}
+
+/* DASHBOARD */
+
+.dashboard-card{
+
+    border-radius:20px;
+
+    color:white;
+
+    padding:25px;
+
+    text-align:center;
+
+}
+
+.bg1{
+
+    background:#0d6efd;
+
+}
+
+.bg2{
+
+    background:#198754;
+
+}
+
+.bg3{
+
+    background:#dc3545;
+
+}
+
+.bg4{
+
+    background:#ffc107;
+
+    color:black;
+
+}
+
+/* PROFILE PHOTO */
+
+.photo{
+
+    width:130px;
+
+    height:130px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid white;
+
+}
+
+/* DOCUMENT BOX */
+
+.document-box{
+
+    border:2px dashed #bbb;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    background:#fafafa;
+
+}
+
+/* SEARCH */
+
+.search-box{
+
+    border-radius:50px;
+
+}
+
+/* STATISTICS */
+
+.stat{
+
+    font-size:40px;
+
+    font-weight:bold;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero{
+
+height:60vh;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.navbar-brand{
+
+font-size:20px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+.dashboard-card{
+
+margin-bottom:20px;
+
+}
+
+}
